@@ -1,0 +1,36 @@
+Name: NetLogic
+Type: NetLogicCategoryFolder
+Children:
+- Name: PointArraryNetLogic
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Name: XValues
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/PopulatePointArrayDynamicLinks/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/X"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+  - Name: YValues
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/PopulatePointArrayDynamicLinks/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Y"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+  - Name: Destination
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/PopulatePointArrayDynamicLinks/Model/PointArray"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+  - Class: Method
+    Name: PopulateDynamicLinks

@@ -1,0 +1,25 @@
+Name: Controller Tags
+Type: FolderType
+Children:
+- Name: X
+  Id: g=21f08152f884c9d56d391180a83a399a
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  ValueRank: OneDimension
+  ArrayDimensions: [50]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "X"
+- Name: Y
+  Id: g=5cdd6f784a27ba52fa91dfc61e92ac45
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  ValueRank: OneDimension
+  ArrayDimensions: [50]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Y"
